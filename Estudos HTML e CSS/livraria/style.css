@@ -1,0 +1,127 @@
+/*Utilize uma folha de estilo externa para aplicar os estilos.*/
+
+/*Esse seletor aplica as propriedades a tudo no documento HTML*/
+* {
+    /*essa propriedade define que a margem é zero em tudo inicialmente*/
+    margin: 0;
+    /*essa propriedade define que o padding é zero em tudo inicialmente*/
+    padding: 0;
+    font-family: Helvetica;
+    /* Com box-sizing os inputs irão respeitar as bordas definidas */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #393D3F;
+    line-height: 60px;
+}
+p {
+    font-family: sans-serif;
+    color: #393D3F;
+}
+
+/*class header-container é a div que engloba o header*/
+.header-container {
+    /*Essa propriedade garante que a largura da div vai até o limite da tela*/
+    width: 100%;
+    /*Essa propriedade define que essa div tem 80 pixels de altura*/
+    height: 80px;
+    /*O cabeçalho deve ter uma cor de fundo sólida de sua escolha.*/
+    background-color: #393D3F;
+}
+
+/*id image-logo-container é a div que engloba a imagem da logo*/
+#image-logo-container {
+    /*essa propriedade define que a altura dessa div é 100% da altura da div onde ela está*/
+    height: 100%;   
+}
+
+/*seletor da tag img da logo*/
+#image-logo {
+    /*altura da logo é 80% da altura da div*/
+    height: 80%;
+    /*espaçamento de 10px entre a imagem e o topo da div*/
+    padding-top: 10px;
+    /*espaçamento de 10px entre a imagem e a esquerda da div*/
+    padding-left: 10px;
+}
+
+
+/*id do ul da navbar*/
+#navbarlist{
+    /*essa propriedade faz com que o ul seja colocado exatamente como eu disser em relação à div onde ele está*/
+    position: absolute;
+    /*em conjunto com a linha de cima, essa propriedade faz com que a lista do nav seja colocada na direita da tela*/
+    right: 0px;
+    /*essa propriedade coloca uma altura máxima para a lista de 80px*/
+    height: 80px;
+    /*essa propriedade coloca uma altura máxima para a linha de 80px*/
+    line-height: 80px;
+}
+
+#navbarlist li {
+    /*essa propriedade faz com que os li da lista sejam enfileirados*/
+    display: inline;
+    /*essa propriedade faz as letras ficarem maiúsculas*/
+    text-transform: uppercase;
+    /*essa propriedade distancia em 25px cada link à esquerda, fazendo um espaçamento padrão entre eles*/
+    margin-left: 25px;
+    
+}
+
+/*edita os links da navbar*/
+#navbarlist a {
+    /*define uma cor pra eles*/
+    color: white;
+    /*tira as decorações padrão de links*/
+    text-decoration: none;
+    /*define que a transição para o hover é de meio segundo*/
+    transition: 0.5s;
+}
+
+/*edita o que acontece quando passa o mouse em cima*/
+#navbarlist a:hover {
+    color: #9CC4B2;
+}
+
+/*edita os blocos de texto (article)*/
+.article  {
+    /*em conjunto com a segunda faz com que o bloco seja colocado todo na vertical*/
+    display: flex;
+    flex-direction: row;
+    
+    padding: 100px;
+    /*coloca os itens no centro*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+/*define um tamanho pra imagem de cada artigo*/
+.article img {
+    width: 400px;
+    /*arredonda a borda da imagem*/
+    border-radius: 20px;
+}
+
+/*define a intensidade do texto (negrito etc)*/
+.article p {
+    font-weight: 100;
+}
+
+footer {
+    /*muda a a cor de fundo*/
+    background-color: #393D3F;
+    /*alinha o texto*/
+    text-align: center;
+    /*dá um espaço entre o texto e a borda da div*/
+    padding: 20px;
+}
+
+footer p {
+    /*muda a cor da fonte*/
+    color: #9CC4B2;
+    
+}
+

@@ -1,0 +1,14 @@
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\bin\Debug\net7.0\teste2.exe
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\bin\Debug\net7.0\teste2.deps.json
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\bin\Debug\net7.0\teste2.runtimeconfig.json
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\bin\Debug\net7.0\teste2.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\bin\Debug\net7.0\teste2.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.AssemblyInfoInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.AssemblyInfo.cs
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.csproj.CoreCompileInputs.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\refint\teste2.dll
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.pdb
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\teste2.genruntimeconfig.cache
+C:\Users\ventu\OneDrive\Área de Trabalho\teste2\obj\Debug\net7.0\ref\teste2.dll

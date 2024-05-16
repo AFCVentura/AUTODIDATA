@@ -1,0 +1,29 @@
+Instruções
+Você foi contratado para desenvolver a página inicial de um website de uma livraria online. Para isso, você precisa estruturar a página usando HTML e estilizá-la com CSS seguindo as especificações abaixo:
+
+Estrutura HTML:
+A página deve ter um cabeçalho (<header>) contendo o logotipo da livraria (use uma imagem de sua escolha com a tag <img> e o atributo alt com o texto "Logotipo da Livraria") e uma barra de navegação (<nav>) com links (use a tag <a>) para as seções "Home", "Sobre", e "Contato".
+
+Logo abaixo do cabeçalho, inclua uma seção principal (<main>) com uns artigo (<article>) apresentando o lançamento do mês. O artigo deve ter um título (<h1>) com o nome do livro, um parágrafo (<p>) com uma breve descrição, e uma imagem de capa do livro. Insira pelo menos 5 artigos desta forma.
+
+Ao final da página, adicione um rodapé (<footer>) com direitos autorais da livraria.
+
+
+Estilização CSS:
+Utilize uma folha de estilo externa para aplicar os estilos.
+
+O cabeçalho deve ter uma cor de fundo sólida de sua escolha.
+
+Os links da barra de navegação devem mudar de cor quando o mouse estiver sobre eles.
+
+O título do livro no artigo deve estar centralizado e com uma fonte serifada.
+
+A imagem da capa do livro deve ter uma borda arredondada.
+
+O rodapé deve ter um texto alinhado ao centro indicando os direitos autorais e uma cor de fundo que contraste com a do cabeçalho.
+
+
+Descreva o código HTML e CSS necessário para criar a estrutura e a estilização descritas acima. Inclua comentários no seu código para explicar a função de cada seção e propriedade CSS utilizada.
+
+
+Obs: Só será validado a prova dos alunos em sala.

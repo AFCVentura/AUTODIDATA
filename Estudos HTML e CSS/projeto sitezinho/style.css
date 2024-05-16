@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Impede que os inputs saiam da tela */
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+#div-cabecalho {
+    height: 50px;
+    padding: 10px, 10px, 20px, 20px;
+    background-color: hsl(234, 25%, 15%);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#div-cabecalho img {
+    height: 40px;
+}
+
+
+#nav {
+    align-items: right;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+    line-height: 10px;
+    display: inline-block;
+}
+
+#nav li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+#nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#nav a:hover {
+    color: aqua;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #22bb5f;
+}
+
+#nav .default-btn:hover {
+    color: blue;
+}
+
+#div-imagem-central {
+    height: 50vh;
+    background-image: url(hercilioLuz.jpg);
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+#div-imagem-central h1, h2 {
+    color: aliceblue;
+    
+    line-height: 40px;
+    text-shadow: rgb(19, 18, 25) 5px 2px;   
+
+}
+
+#div-imagem-central h1 {
+    font-weight: 300;
+}
+
+#div-imagem-central h2 {
+    font-weight: 100;
+}
+
+#div-texto  {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+#div-texto img {
+    width: 100px;
+}
+
+#div-texto p {
+    font-weight: 100;
+}
+
